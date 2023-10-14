@@ -1,0 +1,57 @@
+.reg{
+  color: #0e8881;
+}
+
+
+.headlogo{
+  background-color: white;
+  height: 80px;
+  position: relative;
+}
+.headlogo .left {float: left; width:133px; height:40px;}
+.headlogo .left a{
+  display: block; height: 48px;
+}
+
+.headlogo .country {
+  float: right; 
+  border: solid; 
+  margin: 1%; 
+  border-width: thin;  
+  width: 75px; 
+  display: flex;
+  padding: 5px;
+}
+
+.headlogo .country .langlogo ,p{
+  width: 50px;
+  display: inline-block;
+  width: 20px;
+  height: 13px;
+  vertical-align: middle;
+
+}
+
+section{
+  width: 1104px;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.nav {
+  background-color: #11524f;
+  color: white;
+  text-align: right;
+  padding: 10px 10px;
+  line-height: 30px;
+}
+
+.nav-list {
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+}

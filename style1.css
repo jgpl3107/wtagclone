@@ -1,0 +1,131 @@
+/* Reset some default browser styles */
+html, body, h1, p, ul, li, form, label, select, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  .reg {
+  color: #0e8881;
+  
+  }
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  
+  .headlogo {
+    background-color: white;
+    height: 80px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .headlogo .left {
+    float: left;
+    width: 133px;
+    height: 40px;
+  }
+  
+  .headlogo .left a {
+    display: block;
+    height: 48px;
+  }
+  
+  .headlogo .country {
+    float: right;
+    border: solid;
+    margin: 1%;
+    border-width: thin;
+    width: 75px;
+    display: flex;
+    padding: 5px;
+  }
+  
+  .headlogo .country .langlogo,
+  .headlogo .country p {
+    width: 50px;
+    display: inline-block;
+    height: 13px;
+    vertical-align: middle;
+  }
+  
+//*.main {*/
+    position: relative;
+  }
+  
+
+  .nav {
+    background-color: #11524f;
+    color: white;
+    text-align: right;
+    padding: 20px 10px;
+  }
+  
+  .nav-list {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Style the main content section */
+  main {
+    padding: 20px;
+  }
+  
+  /* Style the form elements */
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  /* Style the "등록" button */
+  button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the "개인정보 수집 및 이용" textarea */
+  #termncondion {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the checkbox and label for "개인정보 수집 및 이용" */
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .maintopsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center; /* Makes the div take the full height of the viewport */
+  }
