@@ -4,22 +4,22 @@
 .inputdecor{width:740px; height: 40px;margin: 5px;}
 
 ///* form section*//
-/* Adjust label width and alignment */
+
 .reg .labeldecor {
   color: #0e8881;
-  width: 100px; /* Adjust the label width as needed */
-  text-align: right; /* Align the label text to the right */
-  margin-right: 10px; /* Add spacing between label and input */
+  width: 100px; 
+  text-align: right; 
+  margin-right: 10px;
 }
 
-/* Adjust input width and margin */
+
 .inputdecor {
-  width: 400px; /* Adjust the input width as needed */
+  width: 400px; 
   height: 40px;
   margin: 5px;
 }
 
-/* Style the button */
+
 button {
   background-color: #0e8881;
   color: white;
