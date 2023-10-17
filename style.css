@@ -1,11 +1,25 @@
 .container .reg .labeldecor{
+    float: left;
+  font-size: 15px;
   color: #0e8881;
+  font-weight: 500;
+  position: relative;
+  top: 7px;
 }
-.inputdecor{width:740px; height: 40px;margin: 5px;}
+.inputdecor{width:740px; height: 40px;margin: 5px;
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+  color: #333;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  box-sizing: border-box;}
 
 ///* form section*//
 
-.reg .labeldecor {
+/*.reg .labeldecor {
   color: #0e8881;
   width: 100px; 
   text-align: right; 
@@ -19,7 +33,7 @@
   margin: 5px;
 }
 
-
+*/
 button {
   background-color: #0e8881;
   color: white;
