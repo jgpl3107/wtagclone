@@ -1,23 +1,51 @@
-.container .reg .labeldecor{
-    float: left;
+.container .reg .labeldecor {
+  float: left;
   font-size: 15px;
   color: #0e8881;
   font-weight: 500;
   position: relative;
   top: 7px;
+  width: 20%;
+  box-sizing: border-box;
+  text-align: left;
 }
-.inputdecor{width:740px; height: 40px;margin: 5px;
+.inputdecor {
+  margin: 5px;
   display: inline-block;
-  width: 100%;
+  width: 78%;
   font-size: 14px;
   color: #333;
   padding: 0 10px;
   height: 40px;
   line-height: 40px;
   vertical-align: middle;
-  box-sizing: border-box;}
+  box-sizing: border-box;
+}
+/*.inputdecor-Enl-1 {
+  margin: 5px;
+  display: inline-block;
+  width: 50%;
+  font-size: 14px;
+  color: #333;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}*/
+/*.labeldecor-Enl {
+  float: left;
+  font-size: 15px;
+  color: #0e8881;
+  font-weight: 500;
+  position: relative;
+  top: 7px;
+  width: 20%;
+  box-sizing: border-box;
+  text-align: left;
+}*/
 
-///* form section*//
+/* form section*/
 
 /*.reg .labeldecor {
   color: #0e8881;
@@ -42,49 +70,51 @@ button {
   cursor: pointer;
 }
 
-
-section{
+section {
   margin: 0;
 }
-main{
+main {
   padding: 20px;
 }
-.headlogo{
+.headlogo {
   background-color: white;
   height: 80px;
   position: relative;
 }
 .headlogo .left {
-  float: left; width: 160px; height:40px;
-margin: 2%;}
-.headlogo .left a{
-  display: block; height: 48px; background-image: url(/pic/logo_b.png);
+  float: left;
+  width: 160px;
+  height: 40px;
+  margin: 2%;
+}
+.headlogo .left a {
+  display: block;
+  height: 48px;
+  background-image: url(/pic/logo_b.png);
 }
 
 .headlogo .country {
-  float: right; 
-  border: solid; 
-  margin: 1%; 
-  border-width: thin;  
-  width: 85px; 
+  float: right;
+  border: solid;
+  margin: 1%;
+  border-width: thin;
+  width: 85px;
   display: flex;
   padding: 5px;
-  
 }
 
-.headlogo .country p{
+.headlogo .country p {
   width: 50px;
   display: inline-block;
   height: 13px;
   vertical-align: middle;
   text-align: center;
-
 }
-.headlogo .country .langlogo{
+.headlogo .country .langlogo {
   width: 25px;
   vertical-align: middle;
 }
-section{
+section {
   width: 1104px;
   padding: 100px 0;
   text-align: center;
@@ -108,7 +138,6 @@ section{
   color: white;
 }
 
-
 /*.nav-list .homelogo {background-image: url(/pic/icon_home.png);display: inline-block; background-size: 10px 3px; background-repeat:no-repeat;background-position:;}*/
 .nav-list .homelogo::before {
   content: "";
@@ -116,30 +145,30 @@ section{
   width: 5px;
   height: 10px;
   display: inline-block;
-  }
-.maintopsection{
-text-align: center;
-display: block;
-margin-bottom: 20px;
 }
-.maintopsection .a-1{
+.maintopsection {
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+.maintopsection .a-1 {
   font-size: 32px;
   color: #333;
   font-weight: 400;
   margin-bottom: 30px;
   line-height: 40px;
 }
-.maintopsection .a-2{
+.maintopsection .a-2 {
   font-size: 20px;
-    color: #333;
-    line-height: 30px;
+  color: #333;
+  line-height: 30px;
 }
-.maintopsection .a-3{
+.maintopsection .a-3 {
   font-size: 32px;
-    color: #838383;
-    font-weight: 400;
-    margin-top: 10px;
-    line-height: 40px;
+  color: #838383;
+  font-weight: 400;
+  margin-top: 10px;
+  line-height: 40px;
 }
 .container {
   width: 820px;
@@ -148,19 +177,17 @@ margin-bottom: 20px;
   border-bottom: 1px solid #dadada;
   padding: 20px 0;
 }
-form{
+form {
   width: 100%;
 }
 .maintopsection .a {
   display: block;
   text-align: center;
   margin: 1px;
-
-
 }
-.maintopsection > *{
+/*.maintopsection > *{
 
 }
 .maintopsection .a{
 
-}
+}*/
