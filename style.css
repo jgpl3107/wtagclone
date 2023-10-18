@@ -21,6 +21,27 @@
   vertical-align: middle;
   box-sizing: border-box;
 }
+.container .emailandlocate {
+  display: inline-block;
+  width: 100%;
+}
+
+.container .emailandlocate .reg {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.container .emailandlocate .labeldecor {
+  display: block;
+  text-align: left;
+  width: 100%;
+}
+
+.container .emailandlocate .inputdecor {
+  width: 70%;
+}
+
 /*.inputdecor-Enl-1 {
   margin: 5px;
   display: inline-block;
