@@ -10,9 +10,9 @@
   text-align: left;
 }
 .inputdecor {
-  margin: 5px;
+  margin: 5px 0;
   display: inline-block;
-  width: 78%;
+  width: 80%;
   font-size: 14px;
   color: #333;
   padding: 0 10px;
@@ -35,7 +35,7 @@
 .container .emailandlocate .labeldecor {
   display: block;
   text-align: left;
-  width: 100%;
+  
 }
 
 .container .emailandlocate .inputdecor {
@@ -212,3 +212,36 @@ form {
 .maintopsection .a{
 
 }*/
+/*footer*/
+footer .footer-a {
+  width: 970px;
+  margin: 0 auto;
+}
+.outer-container{
+  border-top:1px solid #e5e5e5;
+  border-bottom:1px solid #e5e5e5;
+}
+.outer-container-b{
+  
+}
+
+
+.footer-a .contain .userinfo{
+  float: left;
+}
+.footer-a .contain .co-op{
+  float: right;
+}
+
+.footer-a .contain::after{content:''; clear:both;display: block;}
+.outer-container .co-op .co-op-li{
+  display:inline-block;
+}
+
+.footer-a .left{
+  float: left;
+}
+
+.footer-a .left .contact-img{
+  float:left;
+}
