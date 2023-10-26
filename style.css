@@ -222,7 +222,7 @@ footer .footer-a {
   border-bottom:1px solid #e5e5e5;
 }
 .outer-container-b{
-  
+  display: inline-block;
 }
 
 
@@ -238,10 +238,25 @@ footer .footer-a {
   display:inline-block;
 }
 
+
+
 .footer-a .left{
   float: left;
 }
+.footer-a .rightside{
+  float: right;
 
-.footer-a .left .contact-img{
-  float:left;
+}
+/* .footer-a::after{content: ''; clear: both;display: block;} */
+.footer-a .rightside .contact-img{display: inline-block;}
+.outer-container-b .foot-logo{
+width: 175px;
+height: 47px;
+}
+
+
+
+.footer-a .rightside .tel{
+  font-size: 34px;
+  display: inline-block;
 }
